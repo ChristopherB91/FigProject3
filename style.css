@@ -1,0 +1,42 @@
+* {
+  background-color: #050013;
+  color: #ffff;
+}
+
+body {
+  background-color: #050013;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header p {
+  font-size: 44px;
+}
+
+.con1 p {
+  font-size: 15px;
+}
+
+.cardCon1,
+.cardCon2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 0.856688px solid;
+  width: 25rem;
+  background: hsla(0, 0%, 100%, 0.102);
+}
+
+.card-text {
+  color: #9b96b0;
+}
+
+.card-title {
+  color: #ffffff;
+}
