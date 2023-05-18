@@ -1,6 +1,17 @@
+@font-face {
+  font-family: Segoe;
+  src: url(./Fonts/segoeui.ttf);
+}
+
+@font-face {
+  font-family: SegoeBold;
+  src: url(./Fonts/segoeuib.ttf);
+}
+
 * {
   background-color: #050013;
   color: #ffff;
+  font-family: Segoe;
 }
 
 body {
@@ -13,24 +24,29 @@ header {
   align-items: center;
 }
 
-header p {
+header b {
   font-size: 44px;
+  color: #ffffff;
+  font-family: SegoeBold;
 }
 
-.con1 p {
+#badge {
   font-size: 15px;
+  font-family: Segoe;
 }
 
 .cardCon1,
 .cardCon2 {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .card {
-  border: 0.856688px solid;
+  border: 0.856688px solid rgb(44, 43, 43);
+  border-radius: 13.707px;
   width: 25rem;
-  background: hsla(0, 0%, 100%, 0.102);
+  background-color: #050013;
 }
 
 .card-text {
@@ -39,4 +55,9 @@ header p {
 
 .card-title {
   color: #ffffff;
+}
+
+.card:hover {
+  border: 5px solid rgb(44, 43, 43);
+  border-radius: 13.707px;
 }
